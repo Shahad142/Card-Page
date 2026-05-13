@@ -127,15 +127,6 @@ Card-Page/
 
 ---
 
-## 📝 Notes
-
-> **Important:** The repository currently contains the default Flutter template – you will need to modify `/lib/main.dart` to implement the card UI.
->
-> **Assets:** Folders (`fonts/`, `images/`) are present – add your own avatar and icons.
->
-> **Language:** Language breakdown shows C++/CMake due to Flutter's engine dependencies, but the app code is 100% Dart.
-
----
 
 ## 👤 Maintainer
 
