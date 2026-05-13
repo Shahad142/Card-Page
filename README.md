@@ -143,15 +143,4 @@ Card-Page/
 
 ---
 
-## 📄 License
 
-This project is currently unlicensed. Please contact the maintainer for permissions.
-
----
-
-*Built with Flutter*
-```
-
-
-
-الملف الآن جاهز للنسخ واللصق مباشرة في مستودعك. هل تريد أي تعديل إضافي؟
