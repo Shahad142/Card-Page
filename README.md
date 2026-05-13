@@ -1,81 +1,74 @@
-Card Page – Digital Business Card App
-A cross-platform digital business card application built with Flutter. Displays user profile information, contact details, and social links in a clean, card-based UI.
+# Card Page – Digital Business Card App
 
-Problem & Solution
-Problem
+[![Flutter Version](https://img.shields.io/badge/Flutter-3.0+-blue.svg)](https://flutter.dev)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Desktop-brightgreen.svg)](https://flutter.dev)
+
+A cross-platform **digital business card** application built with Flutter. Displays user profile information, contact details, and social links in a clean, card-based UI.
+
+---
+
+## 🎯 Problem & Solution
+
+**Problem**  
 Traditional paper business cards are easily lost, cannot be updated in real-time, and lack interactive elements (e.g., tap-to-call, email, or open maps).
 
-Solution
-This app provides a digital business card that:
+**Solution**  
+This app provides a **digital business card** that:
+- Runs on iOS, Android, Web, Windows, macOS, and Linux
+- Allows instant contact sharing via a single screen
+- Can be updated by modifying the code/assets without reprinting
 
-Runs on iOS, Android, Web, Windows, macOS, and Linux.
+---
 
-Allows instant contact sharing via a single screen.
+## ✨ Key Features
 
-Can be updated by modifying the code/assets without reprinting.
+- ✅ **Responsive Card Layout** – Displays avatar, name, title, and contact buttons
+- ✅ **Tap-to-Action** – Call, email, open maps, or visit social media profiles
+- ✅ **Cross-Platform** – One codebase deploys to 6 platforms
+- ✅ **Customizable Assets** – Replace fonts/images in `/fonts` and `/images` folders
 
-Key Features
-Responsive Card Layout – Displays avatar, name, title, and contact buttons.
+---
 
-Tap-to-Action – Call, email, open maps, or visit social media profiles (if implemented).
+## 🛠️ Tech Stack
 
-Cross-Platform – One codebase deploys to 6 platforms.
+| Category | Technology |
+|----------|------------|
+| Framework | Flutter (Dart) |
+| Platforms | Android, iOS, Web, Windows, macOS, Linux |
+| Assets | Custom fonts, PNG/JPG images |
 
-Customizable Assets – Replace fonts/images in /fonts and /images folders.
+---
 
-Tech Stack
-Framework: Flutter (Dart)
+## 📦 Installation & Usage
 
-Platform Support: Android, iOS, Web, Windows, macOS, Linux
+### Prerequisites
 
-State Management: (not specified – likely setState or no explicit state manager)
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (stable channel)
+- Android Studio / Xcode (for mobile) or Chrome (for web)
 
-Assets: Custom fonts, PNG/JPG images
+### Steps
 
-Installation & Usage
-Prerequisites
-Flutter SDK (stable channel)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Shahad142/Card-Page.git
+   cd Card-Page
 
-Android Studio / Xcode (for mobile builds) or Chrome (for web)
 
-Steps
-Clone the repository
-
-bash
-git clone https://github.com/Shahad142/Card-Page.git
-cd Card-Page
-Get dependencies
-
-bash
-flutter pub get
-Run the app
-
-For mobile (Android/iOS):
-flutter run
-
-For web:
-flutter run -d chrome
-
-For desktop (Windows/macOS/Linux):
-flutter run -d windows (or macos / linux)
-
-Usage Example
-Once running, you will see a card layout similar to:
-
-text
+## 📱 Usage Example
 +----------------------+
 |       [Avatar]       |
-|    John Doe          |
-|    Senior Developer  |
 |                      |
-|  [Call]  [Email]     |
-|  [Map]   [Website]   |
+|     John Doe         |
+|   Senior Developer   |
+|                      |
+|  [📞]  [✉️]  [📍]     |
+|  [🌐]  [🐦]  [🔗]     |
+|                      |
 +----------------------+
-Note: The exact content depends on the code inside /lib. Currently, the repository contains the default Flutter counter app template based on the commit history (APP message).
 
-Project Structure
-text
-Card-Page/
+
+## 📂 Project Structure
+ Card-Page/
 ├── android/          # Android-specific files
 ├── ios/              # iOS-specific files
 ├── linux/            # Linux desktop support
@@ -83,28 +76,31 @@ Card-Page/
 ├── windows/          # Windows desktop support
 ├── web/              # Web platform files
 ├── lib/              # Main Dart source code
-│   └── main.dart     # Entry point (currently default template)
+│   └── main.dart     # Entry point
 ├── test/             # Unit tests
 ├── fonts/            # Custom font files
-├── images/           # Image assets (avatar, icons)
+├── images/           # Image assets
 ├── pubspec.yaml      # Dependencies and asset declarations
 └── README.md         # This file
-Future Improvements
-Replace the default counter app UI with an actual business card layout.
 
-Add functionality to share contact as vCard.
+## 🚀 Future Improvements
+- Replace default counter app UI with actual business card layout
 
-Support dark mode.
+- Add functionality to share contact as vCard
 
-Allow QR code scan to add to phone contacts.
+- Support dark mode
 
-Connect to a backend for dynamic updates (e.g., Firebase).
+- Allow QR code scan to add to phone contacts
 
-Notes
-The repository currently (as of last commit Feb 19, 2025) contains the default Flutter template. You will need to modify /lib/main.dart to implement the card UI.
+- Connect to a backend for dynamic updates (e.g., Firebase)
 
-Assets folders (fonts/, images/) are present but empty – you must add your own avatar and icons.
+## 📝 Notes
+. The repository currently contains the default Flutter template – you will need to modify /lib/main.dart to implement the card UI
 
-Language breakdown shows C++/CMake due to Flutter's engine dependencies, but the app code is 100% Dart.
+. Assets folders (fonts/, images/) are present – add your own avatar and icons
 
-Maintainer: Shahad142
+. Language breakdown shows C++/CMake due to Flutter's engine dependencies, but the app code is 100% Dart
+
+
+## 👤 Maintainer 
+SHAHAD KHUZAYYIM – @Shahad142
