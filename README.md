@@ -1,3 +1,4 @@
+
 # Card Page – Digital Business Card App
 
 [![Flutter Version](https://img.shields.io/badge/Flutter-3.0+-blue.svg)](https://flutter.dev)
@@ -52,9 +53,35 @@ This app provides a **digital business card** that:
    ```bash
    git clone https://github.com/Shahad142/Card-Page.git
    cd Card-Page
+   ```
 
+2. **Get dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+### Run on specific platforms
+
+| Platform | Command |
+|----------|---------|
+| Android/iOS | `flutter run` |
+| Web | `flutter run -d chrome` |
+| Windows | `flutter run -d windows` |
+| macOS | `flutter run -d macos` |
+| Linux | `flutter run -d linux` |
+
+---
 
 ## 📱 Usage Example
+
+Once running, you will see a card layout similar to:
+
+```
 +----------------------+
 |       [Avatar]       |
 |                      |
@@ -65,10 +92,14 @@ This app provides a **digital business card** that:
 |  [🌐]  [🐦]  [🔗]     |
 |                      |
 +----------------------+
+```
 
+---
 
 ## 📂 Project Structure
- Card-Page/
+
+```
+Card-Page/
 ├── android/          # Android-specific files
 ├── ios/              # iOS-specific files
 ├── linux/            # Linux desktop support
@@ -82,25 +113,45 @@ This app provides a **digital business card** that:
 ├── images/           # Image assets
 ├── pubspec.yaml      # Dependencies and asset declarations
 └── README.md         # This file
+```
+
+---
 
 ## 🚀 Future Improvements
-- Replace default counter app UI with actual business card layout
 
-- Add functionality to share contact as vCard
+- [ ] Replace default counter app UI with actual business card layout
+- [ ] Add functionality to share contact as vCard
+- [ ] Support dark mode
+- [ ] Allow QR code scan to add to phone contacts
+- [ ] Connect to a backend for dynamic updates (e.g., Firebase)
 
-- Support dark mode
-
-- Allow QR code scan to add to phone contacts
-
-- Connect to a backend for dynamic updates (e.g., Firebase)
+---
 
 ## 📝 Notes
-. The repository currently contains the default Flutter template – you will need to modify /lib/main.dart to implement the card UI
 
-. Assets folders (fonts/, images/) are present – add your own avatar and icons
+> **Important:** The repository currently contains the default Flutter template – you will need to modify `/lib/main.dart` to implement the card UI.
+>
+> **Assets:** Folders (`fonts/`, `images/`) are present – add your own avatar and icons.
+>
+> **Language:** Language breakdown shows C++/CMake due to Flutter's engine dependencies, but the app code is 100% Dart.
 
-. Language breakdown shows C++/CMake due to Flutter's engine dependencies, but the app code is 100% Dart
+---
+
+## 👤 Maintainer
+
+**SHAHAD KHUZAYYIM** – [@Shahad142](https://github.com/Shahad142)
+
+---
+
+## 📄 License
+
+This project is currently unlicensed. Please contact the maintainer for permissions.
+
+---
+
+*Built with Flutter*
+```
 
 
-## 👤 Maintainer 
-SHAHAD KHUZAYYIM – @Shahad142
+
+الملف الآن جاهز للنسخ واللصق مباشرة في مستودعك. هل تريد أي تعديل إضافي؟
